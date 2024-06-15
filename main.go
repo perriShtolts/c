@@ -23,8 +23,12 @@ func main() {
 func calc(virajenie string) string {
 	var workVir = virajenie
 	var resultInt int
+	var errLenVir error
 
 	splitingVirAr := strings.Split(workVir, " ")
+	if len(splitingVirAr) > 3 {
+		panic(errLenVir)
+	}
 
 	//fmt.Println(splitingVirAr, " вот что пришло в функцию") //ПРОВЕРКА
 
