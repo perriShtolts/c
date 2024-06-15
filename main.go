@@ -46,7 +46,6 @@ func calc(virajenie string) string {
 		//fmt.Println(num1Int, "     вот 2 римское число") //ПРОВЕРКА
 
 		switch true {
-		case num1Int < 0:
 			panic(autOfBaundNumber1)
 		case
 			num1Int > 10:
@@ -56,7 +55,6 @@ func calc(virajenie string) string {
 		case num2Int > 10:
 			panic(autOfBaundNumber2)
 		case
-			num2Int < 0:
 			panic(autOfBaundNumber2)
 		}
 
@@ -75,7 +73,6 @@ func calc(virajenie string) string {
 		}
 
 		switch true {
-		case num1Int < 0:
 			panic(autOfBaundNumber1)
 		case
 			num1Int > 10:
@@ -91,7 +88,6 @@ func calc(virajenie string) string {
 		case num2Int > 10:
 			panic(autOfBaundNumber2)
 		case
-			num2Int < 0:
 			panic(autOfBaundNumber2)
 		}
 
